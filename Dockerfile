@@ -1,4 +1,4 @@
-FROM docker:stable@sha256:fd4d028713fd05a1fb896412805daed82c4a0cc84331d8dad00cb596d7ce3e3a
+FROM docker:latest@sha256:3a33fc81fa4d38360f490f5b900e9846f725db45bb1d9b1fe02d849bd42a5cf2
 
 RUN apk add --no-cache curl
 

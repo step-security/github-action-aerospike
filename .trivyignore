@@ -1,0 +1,21 @@
+# Trivy Ignore File for github-action-aerospike
+# This file lists CVEs that don't affect this GitHub Action's use case
+
+# SELinux-related vulnerabilities - GitHub Actions runners don't use SELinux
+CVE-2025-52881
+
+# CNI portmap plugin - not used in this simple port-forwarding scenario
+CVE-2025-67499
+
+# SSH-related vulnerabilities - this action doesn't use SSH
+CVE-2025-47914
+CVE-2025-58181
+
+# HTTP proxy bypass - this action doesn't use HTTP proxies
+CVE-2025-22870
+
+# HTML rendering vulnerability - this action doesn't render HTML
+CVE-2025-22872
+
+# X.509 certificate wildcard SAN - not relevant for running containers
+CVE-2025-61727
