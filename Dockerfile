@@ -1,6 +1,6 @@
-FROM docker:latest@sha256:3a33fc81fa4d38360f490f5b900e9846f725db45bb1d9b1fe02d849bd42a5cf2
+FROM docker:latest@sha256:1ba18449911d01f477a3fc104123c85d677addc60701b14b3fcb5381f9c4a537
 
-RUN apk add --no-cache curl
+RUN apk add --no-cache curl && apk upgrade --no-cache zlib
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
