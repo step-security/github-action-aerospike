@@ -1,3 +1,5 @@
+[![StepSecurity Maintained Action](https://raw.githubusercontent.com/step-security/maintained-actions-assets/main/assets/maintained-action-banner.png)](https://docs.stepsecurity.io/actions/stepsecurity-maintained-actions)
+
 # github-action-aerospike
 [![YAML Lint](https://github.com/step-security/github-action-aerospike/actions/workflows/yaml-lint.yml/badge.svg)](https://github.com/step-security/github-action-aerospike/actions/workflows/yaml-lint.yml)
 
