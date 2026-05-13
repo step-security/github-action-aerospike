@@ -24,7 +24,7 @@ inputs:
     default: ''
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/step-security/github-action-aerospike:v1.1.2@sha256:4eda9ce870d9a564111d36108e0f690f2d79ccd1d8fa0a805c9e0acb9351c39f' #v1.1.2
+  image: 'docker://ghcr.io/step-security/github-action-aerospike:v1.1.2@sha256:50c047a34f5e9e89904b81edf0e4aa149e7c3f32200486721f833c2df027aaa0' #v1.1.2
   args:
     - ${{ inputs.port }}
     - ${{ inputs.server-version }}
