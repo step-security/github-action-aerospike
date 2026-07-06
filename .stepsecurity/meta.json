@@ -1,0 +1,18 @@
+{
+   "schema_version": "1",
+   "onboarding_type": "copied",
+   "archived": false,
+   "maintained_action_name": "step-security/github-action-aerospike",
+   "upstream_full_repo_name": "reugn/github-action-aerospike",
+   "action_type": "docker",
+   "last_release": {
+     "tag_name": "v1.1.2",
+     "created_at": "2026-05-13T08:37:36Z",
+     "published_at": "2026-05-14T01:31:25Z"
+   },
+   "sync": {
+     "ignore_presets": [
+       "defaults_v1"
+     ]
+   }
+ }
